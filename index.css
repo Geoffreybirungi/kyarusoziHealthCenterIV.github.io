@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(56, 55, 55);
+    background-color: paleturquoise;
     width: 100%;
   }
   
@@ -26,7 +26,7 @@ body {
   margin-bottom: 10px;
 }
 .marquee{
-  background-color: grey;
+  background-color: orangered;
   color: white;
   padding: 2%;
   font-size: 20px;
@@ -97,164 +97,122 @@ h2 {
   width: 100%;
 }
 
+/* welcome------------------------------------------------------------------------------------- */
 
-/* Hero Section Styles */
-#hero-section {
-   background-color: rgb(87, 36, 17);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    border-radius: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 16px;
-  
-    
-  }
-  #rooms-section, #dining-section, #events-section, #contact-section {
-    opacity: 0.5;
-  }
-  #rooms-section:hover, #dining-section:hover, #events-section:hover, #contact-section:hover {
-    opacity: 1;
-  }
-  
-  #hero-section h1 {
-    font-size: 45px;
-    margin-bottom: 20px;
-    
-    color: rgb(233, 229, 229);
-    text-align: center;
-    
-  }
 
-  #hero-section h2{
-    font-size: 25px;
-    color: rgb(7, 206, 7);
-    text-align: center;
-  
-  }
-  
-  #hero-section p {
-    font-size: 20px;
-    margin-bottom: 2px;
-    
-    color: white;
-    text-align: center;
-    justify-content: space-between;
-    
-    line-height: 50px;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 2px 2px #000;
-    transition: ease-in;
-    width: 17%;
-    text-align: center;
-  }
-  
-  .button:hover {
-    background-color: rgb(2, 178, 190);
-    color: #fff;
-  }
-  
-  /* Rooms Section Styles */
-  #rooms-section {
-    background-image: url("image/background.PNG");
-    padding: 50px 0;
-    text-align: center;
-    height: 300px;
-    margin-top: 1%;
-  }
-  
-  #rooms-section h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  
-  #rooms-section p {
-    font-size: 2rem;
-    margin-bottom: 40px;
-    background-color: #0005;
-    color: white;
-    
-  }
-  
-  /* Dining Section Styles */
-  #dining-section {
-    background-image: url("image/background.PNG");
-    padding: 50px 0;
-    text-align: center;
-    height: 500px;
-    margin-top: 1%;
-  }
-  
-  #dining-section h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  
-  #dining-section p {
-    font-size: 2rem;
-    margin-bottom: 40px;
-    background-color: #0005;
-    color: white;
-  }
-  
-  /* Events Section Styles */
-  #events-section {
-    background-image: url("image/background.PNG");
-    padding: 50px 0;
-    text-align: center;
-    height: 500px;
-    margin-top: 1%;
-  }
-  
-  #events-section h2 {
-    font-size: 3rem;
-  margin-bottom: 20px;
-  }
-  
-  #events-section p {
-    font-size: 2rem;
-  margin-bottom: 40px;
-  background-color: #0005;
-    color: white;
+.off#welcome {
+  color: white;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2%;
+}
 
-  }
+.hom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2%;
+}
 
-  
-  /* contact us Section Styles */
-  #contact-section {
-    /* background-image: url("image/in-services.PNG"); */
-    padding: 50px 0;
-    text-align: center;
-    height: 500px;
-    margin-top: 1%;
-  }
-  
-  #contact-section h2 {
-    font-size: 3rem;
-  margin-bottom: 20px;
-  }
-  
-  #contact-section p {
-  font-size: 2rem;
-  margin-bottom: 40px;
-  background-color: #0005;
-    color: white;
-  
-  }
-  
+.ho {
+  padding: 1%;
+  width: 58%;
+}
+
+.ho img {
+  width: 100%;
+  height: auto;
+}
+
+.ho1 {
+  margin-left: 1%;
+  text-align: center;
+  line-height: 2.0;
+  padding: 2%;
+  width: 35%;
+}
+
+.ho1 h1 {
+  letter-spacing: 2px;
+  color: white;
+}
+
+.ho1 h3 {
+  letter-spacing: 2px;
+  color: #ff6600;
+}
+
+.ho1 a {
+  float: right;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #ff6600;
+  color: #ff6600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ho1 a:hover {
+  color: #3a3030;
+  border-bottom: 2px solid #3a3030;
+}
+
+#din {
+  margin-left: 0;
+}
+
+.exp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.ex {
+  width: 65%;
+}
+
+.ex img {
+  width: 100%;
+  height: 75vh;
+}
+
+.ex1 {
+  word-spacing: 5px;
+  line-height: 2.0;
+  text-align: center;
+  color: white;
+  background-color: #3a3030;
+  width: 35%;
+  height: 75vh;
+  padding: 1%;
+}
+
+.ex1 h3 {
+  color: #ff6600;
+}
+
+.ex1 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ff6600;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #ff6600;
+}
+
+.ex1 a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+
+
+/* end of welcome ;----------------------------------------- */
+
+
   /* Responsive Styles */
   @media (max-width: 768px) {
   nav {
